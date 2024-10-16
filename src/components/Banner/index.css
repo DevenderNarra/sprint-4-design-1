@@ -1,0 +1,51 @@
+.banner-section{
+    height:25vh;
+    width:100%;
+    background-color: rgb(230, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.location-search-container{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.location-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    border: 2px solid gray;
+    height:40px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.location-container select{
+    border: 1px solid transparent;
+    background-color: transparent;
+    cursor: pointer;
+}
+.search-container{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border: 2px solid gray;
+    height:30px;
+    width:300px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.search-container input{
+    height:30px;
+    width:250px;
+    border:none;
+    background-color: transparent;
+}
+.search-container button{
+    height:30px;
+    width:50px;
+    border:1px solid transparent;
+    background-color: transparent;
+}

@@ -1,0 +1,73 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:550px;
+    width:400px;
+    background-color: #fff7e2;
+    margin: 10px;
+    padding:20px;
+    border-radius: 25px;
+}
+.expertise-container{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.experience-container{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.language-container{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.fee-container{
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+.fee-container div{
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70px;
+    width:150px;
+    border:1px solid lightgrey;
+    border-radius:10px;
+}
+.view-profile-btn{
+    height:40px;
+    width:75%;
+    padding:10px;
+    border:2px solid green;
+    background-color: transparent;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+.view-profile-btn:hover{
+    background-color:rgb(6, 46, 6);
+    color: white;
+    border: 1px solid transparent;
+}
+.booking-btn{
+    height:40px;
+    width: 75%;
+    padding: 10px;
+    background-color:rgb(6, 46, 6);
+    color: white;
+    border:1px solid transparent;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;;
+}
+.booking-btn:hover{
+    background-color:transparent;
+    color: green;
+    border: 1px solid lightgray;
+}
